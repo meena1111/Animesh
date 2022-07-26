@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AnimeDetal">
+
+    <TextView
+        android:id="@+id/anime_NameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:text="Death note" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name hero:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nameHeroTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number series:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/seriesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="37" />
+
+</LinearLayout>
